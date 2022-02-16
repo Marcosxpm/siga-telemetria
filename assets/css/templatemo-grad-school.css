@@ -328,7 +328,7 @@ a.menu-link { display: none; }
   max-height: 50vh;
   object-fit: cover;
   z-index: -1;
-  border-radius: 15% 74% 16% 19% / 67% 45% 54% 19% ;
+  border-radius: 20px
 }
 
 #bg-video::-webkit-media-controls {
@@ -519,15 +519,16 @@ section.why-us {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
-    transition: all 0.5s;
+    transition: all 0.9s;
 }
 
 #tabs {
   text-align: center;
+
 }
 #tabs ul {
   margin: 0;
-  padding: 0;
+  padding: -50%;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -549,12 +550,12 @@ section.why-us {
 }
 #tabs ul li a {
   display: block;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 1px;
   cursor: pointer;
   outline: 0;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -587,28 +588,20 @@ section.why-us {
 }
 #tabs ul li span {
   display: block;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.70em;
 }
 #tabs ul .ui-tabs-active {
 }
 #tabs ul .ui-tabs-active a {
   color: #f5a425;
 }
-#tabs ul .ui-tabs-active a:after {
-  background-color: #f5a425;
-  width: 15px;
-  height: 15px;
-}
-#tabs ul .ui-tabs-active a:before {
-  border-color: #f5a425;
-}
 #tabs h4 {
-    margin-top: 60px;
-    font-size: 32px;
-    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #tabs p {
@@ -626,14 +619,21 @@ section.why-us {
   
   .tabs-content {
       text-align: center;
+      box-sizing: border-box;
   }
+  #tabs p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+}
+  
 
 }
 
 .tabs-content img {
     width: 100%;
     overflow: hidden;
-    padding-right: 45px;
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 767px) {
@@ -832,7 +832,7 @@ section.courses {
 section.courses .item img {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    box-shadow: rgb(48, 47, 47) 2px 0px 15px 2px;
+
 }
 
 section.courses .item .down-content {
@@ -840,7 +840,7 @@ section.courses .item .down-content {
     background-color: rgb(255, 255, 255);
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    box-shadow: rgb(48, 47, 47) 2px 0px 15px 2px;
+
 }
 
 section.courses .item .down-content h4 {
@@ -1355,7 +1355,7 @@ img.mfp-img {
   width: auto;
   height: auto;
   z-index: -1;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+
   background: #444;
 }
 
@@ -1485,9 +1485,11 @@ section.contact {
 
 
 section.contact form {
-    background-color: rgba(250,250,250,0.1);
+    background-color: rgba(250, 250, 250, 0.144);
     padding: 30px;
     width: 100%;
+    border-radius: 20px;
+    box-shadow: rgb(29, 27, 27) 5px 0px 20px 5px;
 }
 
 
@@ -1508,6 +1510,7 @@ section.contact form input {
     font-size: 13px;
     margin-bottom: 30px;
     letter-spacing: 0.5px;
+    border-radius: 20px;
 }
 
 section.contact form textarea {
@@ -1515,7 +1518,7 @@ section.contact form textarea {
     height: 220px;
     max-height: 280px;
     min-height: 220px;
-    background-color: rgba(250,250,250,0.1);
+    background-color: rgba(250, 250, 250, 0.13);
     border-radius: 0px;
     border: none;
     outline: none;
@@ -1523,6 +1526,7 @@ section.contact form textarea {
     font-size: 13px;
     margin-bottom: 30px;
     letter-spacing: 0.5px;
+    border-radius: 15px;
 }
 
 section.contact form input:focus,
@@ -1554,6 +1558,7 @@ section.contact form button {
     outline: none;
     box-shadow: none;
     border: none;
+    border-radius: 30px;
 }
 /*sessão mobile*/
 .masthead {
@@ -1616,7 +1621,7 @@ section.contact form button {
     max-width: 15rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   .masthead .masthead-device-mockup .circle {
     width: 90%;
   }
