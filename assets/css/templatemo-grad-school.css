@@ -550,14 +550,12 @@ section.why-us {
 }
 #tabs ul li a {
   display: block;
-  font-size: 7px;
+  font-size:7px;
   font-weight: 600;
   letter-spacing: 1px;
   cursor: pointer;
   outline: 0;
   padding-bottom: 25px;
-  padding-left: 5px;
-  padding-right: 5px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -1025,6 +1023,7 @@ section.video .left-content .main-button {
     width: 100%;
     padding: 27px 30px;
     bottom: 0;
+    border-radius: 20px;
 }
 
 .video-item .video-caption h4 {
@@ -1575,6 +1574,7 @@ section.contact form button {
   background-image: url(/assets/images/appsection.jpg);
   padding-top: 7rem;
   padding-bottom: 5rem;
+  max-width: 100%;
 }
 .masthead .masthead-device-mockup {
   display: flex;
@@ -1603,6 +1603,7 @@ section.contact form button {
   bottom: 15%;
   left: 10%;
 }
+
 .masthead .masthead-device-mockup .shape-2 {
   position: absolute;
   height: 0.75rem;
@@ -1672,7 +1673,9 @@ section.contact form button {
   height: 100%;
   pointer-events: none;
 }
-
+h8{
+  color: #000;
+}
 .device .screen {
   position: absolute;
   background-size: cover;
