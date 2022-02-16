@@ -559,7 +559,6 @@ section.why-us {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  position: relative;
 }
 #tabs ul li a:after {
     transition: all 0.3s;
@@ -594,6 +593,14 @@ section.why-us {
 }
 #tabs ul .ui-tabs-active a {
   color: #f5a425;
+}
+#tabs ul .ui-tabs-active a:after {
+  background-color: #f5a425;
+  width: 15px;
+  height: 15px;
+}
+#tabs ul .ui-tabs-active a:before {
+  border-color: #f5a425;
 }
 #tabs h4 {
     margin-top: 30px;
