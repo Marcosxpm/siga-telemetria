@@ -833,8 +833,8 @@ section.courses {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f5a425;
-    padding-bottom: 100px;
-    padding: 0px 30px 100px 30px;
+    padding-bottom: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 section.courses .item img {
@@ -844,7 +844,7 @@ section.courses .item img {
 }
 
 section.courses .item .down-content {
-    padding: 40px;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -862,7 +862,11 @@ section.courses .item .down-content h4 {
 }
 
 section.courses .item .down-content p {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+section.courses .item .down-content li {
+  font-size: 11px;
+color: rgb(39, 37, 37);
 }
 
 section.courses .item .down-content img {
@@ -892,7 +896,7 @@ section.courses .item .down-content .text-button-free {
 
 section.courses .item .down-content .text-button-free a {
     color: #145DA0;
-    font-size: 13px;
+    font-size: 5px;
 }
 
 section.courses .owl-carousel .owl-nav {
@@ -915,7 +919,6 @@ section.courses .owl-carousel button.active {
     background-color: #145DA0;
     border-radius: 50%;
 }
-
 
 
 
