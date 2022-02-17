@@ -3,18 +3,18 @@
 }
 body{
 text-align: center;
-background: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
 }
 h2{
-color: #fff;
+color: rgb(0, 0, 0);
 font-size: 40px;
 }
 h1{
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 60px;
     }
 p{
-color: #fff;
+color: rgb(0, 0, 0);
 }
 .container{
 margin: 0;
@@ -23,7 +23,7 @@ padding: 0;
 .return{
   display: inline-block;
   padding: 0.85rem 2rem;
-  background-color:rgb(41, 38, 196) ;
+  background-color: #2937f0;
   color: var(--light-one);
   border-radius: 2rem;
   font-size: 1.05rem;
