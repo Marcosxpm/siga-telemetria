@@ -832,7 +832,7 @@ section.coming-soon form button {
 section.courses {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f5a425;
+    background-image: url(/assets/images/carroselbg.jpg);
     padding-bottom: 30px;
     padding: 0px 30px 30px 30px;
 }
@@ -1488,7 +1488,7 @@ img.mfp-img {
 /* Contact */
 
 section.contact {
-    background-image: url(../images/fundo2.jpg);
+    background-image: url(../images/faleconosco1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
