@@ -1681,6 +1681,13 @@ section.contact form button {
 h8{
   color: #000;
 }
+h9{
+  font-size: large;
+  color: #fff;;
+}
+p{
+  color: #fff;;
+}
 .device .screen {
   position: absolute;
   background-size: cover;
