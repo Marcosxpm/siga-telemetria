@@ -341,6 +341,7 @@ a.menu-link { display: none; }
     left: 0;
     bottom: 7px;
     width: 100%;
+    background-color: rgba(22, 34, 57, 0.753);
 }
 
 .main-banner .caption {
