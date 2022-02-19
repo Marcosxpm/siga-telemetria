@@ -399,6 +399,9 @@ a.menu-link { display: none; }
   .main-banner .caption h2 {
     font-size: 58px;
   }
+  .main-banner .caption h1 {
+    font-size: 58px;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -408,6 +411,9 @@ a.menu-link { display: none; }
   }
 
   .main-banner .caption h2 {
+    font-size: 36px;
+  }
+  .main-banner .caption h1 {
     font-size: 36px;
   }
 
