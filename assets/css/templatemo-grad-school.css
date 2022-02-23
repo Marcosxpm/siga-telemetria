@@ -395,6 +395,11 @@ a.menu-link { display: none; }
   .main-banner .caption h6 {
     font-weight: 500;
   }
+  .main-banner .caption h6 em {
+    font-style: normal;
+    color: #f5a425;
+    font-weight: 900;
+  }
 
   .main-banner .caption h2 {
     font-size: 58px;
