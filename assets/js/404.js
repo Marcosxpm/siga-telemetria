@@ -20,6 +20,7 @@ document.oncontextmenu=new Function("return false")
     {top.location.href="404.html"});shortcut.add("F12",function()
     {top.location.href="404.html"});shortcut.add("Ctrl+C",function()
     {top.location.href="404.html"});shortcut.add("Ctrl+Z",function()
+    {top.location.href="404.html"});shortcut.add("Ctrl+Shift+I",function()
     {top.location.href="404.html"});
     //]]>
 
