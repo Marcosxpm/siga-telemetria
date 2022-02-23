@@ -402,6 +402,12 @@ a.menu-link { display: none; }
   .main-banner .caption h1 {
     font-size: 58px;
   }
+  .main-banner .caption img {
+    font-size: 58px;
+    max-width: 100%;
+    width: 250px;
+  }
+  
 
 }
 @media screen and (max-width: 767px) {
